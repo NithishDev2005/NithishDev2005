@@ -6,7 +6,7 @@
 <!-- Animated Typing Intro -->
 <p align="center">
   <a href="https://github.com/NithishDev2005">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Nithish+Kumar+%F0%9F%91%8B;B.Tech+CSE+%7C+AI%2FML+%26+Full-Stack+Developer;Building+Autonomous+AI+Agents+%26+Federated+Systems;Open+to+SDE%2C+AI%2FML+%26+Cloud+Opportunities" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0EA5E9&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Nithish+Kumar+%F0%9F%91%8B;B.Tech+CSE+%7C+AI%2FML+%26+Full-Stack+Developer;Building+Autonomous+AI+Agents+%26+Federated+Systems;Open+to+SDE%2C+AI%2FML+%26+Cloud+Opportunities" alt="Typing SVG" />
   </a>
 </p>
 
@@ -50,3 +50,56 @@ developer:
     - "2nd Place — Green Echo Hackathon"
     - "6th Place — Agentforce Innovate Hackathon"
   status: "Open to SDE, AI/ML & Cloud Internships / Entry-Level Roles"
+```
+
+---
+
+### 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,py,c,cpp,js,react,nodejs,fastapi,vite,pytorch,sklearn,mysql,postgres,mongodb,docker,aws,git,github,linux,vscode&perline=10" />
+</p>
+
+---
+
+### 🚀 Featured Projects
+
+| Project | What It Does | Core Stack |
+| :--- | :--- | :--- |
+| **[PE-FedHealth](https://github.com/NithishDev2005/PE-FedHealth)** | Privacy-preserving & explainable federated learning system for multi-disease risk prediction from wearable biosignals | `PyTorch` `Flower` `SHAP` `FastAPI` `React` |
+| **[dealpilot-AI](https://github.com/NithishDev2005/dealpilot-AI)** | Autonomous Sales Intelligence Agent for smart CRM decision-making and workflow automation | `Python` `LLMs` `AI Agents` |
+| **[election-assistant-aws](https://github.com/NithishDev2005/election-assistant-aws)** | Cloud-backed interactive assistant built for civic and election information workflows | `JavaScript` `AWS` |
+
+---
+
+### 📊 Live GitHub Telemetry
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=NithishDev2005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+  <img height="165" src="https://streak-stats.demolab.com?user=NithishDev2005&theme=tokyonight&hide_border=true&background=0D1117" />
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NithishDev2005&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NithishDev2005&theme=tokyo-night&hide_border=true&area=true" width="95%" />
+</p>
+
+---
+
+### 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NithishDev2005/NithishDev2005/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NithishDev2005/NithishDev2005/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/NithishDev2005/NithishDev2005/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</p>
+
+<!-- Animated Wave Footer -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:1E3A8A,100:0F172A&height=110&section=footer" width="100%" />
+</p>
