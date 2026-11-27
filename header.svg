@@ -1,0 +1,79 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+    <linearGradient id="neonText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="50%" stop-color="#9333EA" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <radialGradient id="glow1" cx="18%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="85%" cy="80%" r="45%">
+      <stop offset="0%" stop-color="#9333EA" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#9333EA" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#38BDF8" stroke-opacity="0.08" stroke-width="1" />
+    </pattern>
+    <clipPath id="rounded">
+      <rect width="900" height="220" rx="16" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .pulse { animation: pulse 2.2s ease-in-out infinite; }
+    .glow-orb { animation: floatGlow 5s ease-in-out infinite alternate; }
+    .scanline { animation: scan 4.5s linear infinite; }
+    .code-float { animation: floatY 3.5s ease-in-out infinite alternate; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+    @keyframes floatGlow { 0% { opacity: 0.65; } 100% { opacity: 1; } }
+    @keyframes scan { 0% { transform: translateY(-20px); opacity: 0; } 15% { opacity: 0.55; } 85% { opacity: 0.55; } 100% { transform: translateY(230px); opacity: 0; } }
+    @keyframes floatY { 0% { transform: translateY(0px); } 100% { transform: translateY(-8px); } }
+  </style>
+
+  <g clip-path="url(#rounded)">
+    <rect width="900" height="220" fill="url(#bg)" />
+    <rect width="900" height="220" fill="url(#grid)" />
+    <rect class="glow-orb" width="900" height="220" fill="url(#glow1)" />
+    <rect class="glow-orb" width="900" height="220" fill="url(#glow2)" />
+
+    
+    <rect class="scanline" x="0" y="0" width="900" height="2" fill="url(#accentBar)" />
+
+    
+    <rect x="0" y="0" width="900" height="3" fill="url(#accentBar)" />
+    <rect x="0" y="217" width="900" height="3" fill="url(#accentBar)" />
+
+    
+    <rect x="44" y="34" width="356" height="28" rx="14" fill="#0F172A" stroke="#22C55E" stroke-opacity="0.5" stroke-width="1" />
+    <circle class="pulse" cx="62" cy="48" r="5" fill="#22C55E" />
+    <text x="76" y="52" fill="#86EFAC" font-family="&#39;Segoe UI&#39;, Consolas, monospace" font-size="11.5" font-weight="600" letter-spacing="1.2">SYSTEM ONLINE // OPEN TO SDE &amp; AI ROLES</text>
+
+    
+    <text x="44" y="122" fill="url(#neonText)" font-family="&#39;Segoe UI&#39;, -apple-system, sans-serif" font-size="44" font-weight="800" letter-spacing="1.5">PALUVAI NITHISH KUMAR</text>
+
+    
+    <text x="46" y="158" fill="#CBD5E1" font-family="&#39;Segoe UI&#39;, Consolas, monospace" font-size="16" font-weight="500" letter-spacing="0.8">AI/ML Engineer  •  Full-Stack Developer  •  Cloud Builder</text>
+
+    
+    <text x="46" y="188" fill="#64748B" font-family="Consolas, monospace" font-size="13">~/NithishDev2005 $ building autonomous agents &amp; privacy-preserving ML</text>
+
+    
+    <g class="code-float" opacity="0.9">
+      <rect x="720" y="48" width="136" height="124" rx="14" fill="#0B1120" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1.5" />
+      <text x="788" y="120" text-anchor="middle" fill="url(#neonText)" font-family="Consolas, monospace" font-size="44" font-weight="700">&lt;/&gt;</text>
+      <text x="788" y="150" text-anchor="middle" fill="#94A3B8" font-family="Consolas, monospace" font-size="11" letter-spacing="1.5">DEV MODE</text>
+    </g>
+  </g>
+</svg>
