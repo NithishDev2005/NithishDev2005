@@ -1,0 +1,81 @@
+<svg width="900" height="290" viewBox="0 0 900 290" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="barPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9333EA" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .cursor { animation: blink 1s step-end infinite; }
+    .bar1 { animation: grow1 1.4s ease-out forwards; }
+    .bar2 { animation: grow2 1.6s ease-out forwards; }
+    .bar3 { animation: grow3 1.8s ease-out forwards; }
+    .bar4 { animation: grow4 2.0s ease-out forwards; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes grow1 { from { width: 0; } to { width: 258px; } }
+    @keyframes grow2 { from { width: 0; } to { width: 246px; } }
+    @keyframes grow3 { from { width: 0; } to { width: 238px; } }
+    @keyframes grow4 { from { width: 0; } to { width: 224px; } }
+  </style>
+
+  
+  <rect width="900" height="290" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="1.5" />
+  <path d="M 14 0 H 886 A 14 14 0 0 1 900 14 V 38 H 0 V 14 A 14 14 0 0 1 14 0 Z" fill="#161B22" />
+  <line x1="0" y1="38" x2="900" y2="38" stroke="#30363D" stroke-width="1" />
+
+  
+  <circle cx="24" cy="19" r="6" fill="#FF5F56" />
+  <circle cx="44" cy="19" r="6" fill="#FFBD2E" />
+  <circle cx="64" cy="19" r="6" fill="#27C93F" />
+  <text x="450" y="23" text-anchor="middle" fill="#8B949E" font-family="Consolas, monospace" font-size="12.5">nithish@dev-machine: ~/whoami.sh</text>
+
+  
+  <text x="28" y="72" fill="#22C55E" font-family="Consolas, monospace" font-size="13.5" font-weight="700">nithish@github</text>
+  <text x="148" y="72" fill="#E2E8F0" font-family="Consolas, monospace" font-size="13.5">:$ ./profile --developer-mode</text>
+
+  <text x="28" y="104" fill="#38BDF8" font-family="Consolas, monospace" font-size="13" font-weight="700">EDUCATION</text>
+  <text x="130" y="104" fill="#E2E8F0" font-family="Consolas, monospace" font-size="13">: B.Tech CSE @ Vardhaman (2027)</text>
+
+  <text x="28" y="132" fill="#38BDF8" font-family="Consolas, monospace" font-size="13" font-weight="700">FOCUS</text>
+  <text x="130" y="132" fill="#E2E8F0" font-family="Consolas, monospace" font-size="13">: AI Agents, Federated ML &amp; Full-Stack</text>
+
+  <text x="28" y="160" fill="#38BDF8" font-family="Consolas, monospace" font-size="13" font-weight="700">CERTS</text>
+  <text x="130" y="160" fill="#E2E8F0" font-family="Consolas, monospace" font-size="13">: OCI AI Foundations • Salesforce Agentforce</text>
+
+  <text x="28" y="188" fill="#38BDF8" font-family="Consolas, monospace" font-size="13" font-weight="700">WINS</text>
+  <text x="130" y="188" fill="#FDE047" font-family="Consolas, monospace" font-size="13">: 2nd Green Echo • 6th Agentforce Innovate</text>
+
+  <text x="28" y="216" fill="#38BDF8" font-family="Consolas, monospace" font-size="13" font-weight="700">LOCATION</text>
+  <text x="130" y="216" fill="#E2E8F0" font-family="Consolas, monospace" font-size="13">: Hyderabad, India</text>
+
+  <text x="28" y="256" fill="#22C55E" font-family="Consolas, monospace" font-size="13.5" font-weight="700">nithish@github</text>
+  <text x="148" y="256" fill="#E2E8F0" font-family="Consolas, monospace" font-size="13.5">:$</text>
+  <rect class="cursor" x="172" y="243" width="9" height="16" fill="#38BDF8" />
+
+  
+  <line x1="540" y1="60" x2="540" y2="265" stroke="#21262D" stroke-width="1.5" />
+
+  
+  <text x="570" y="74" fill="#A855F7" font-family="Consolas, monospace" font-size="13.5" font-weight="700">// CORE ENGINEERING STACK</text>
+
+  <text x="570" y="106" fill="#CBD5E1" font-family="Consolas, monospace" font-size="12">Python • PyTorch • LLMs &amp; ML</text>
+  <rect x="570" y="114" width="280" height="10" rx="5" fill="#1E293B" />
+  <rect class="bar1" x="570" y="114" width="258" height="10" rx="5" fill="url(#barCyan)" />
+
+  <text x="570" y="152" fill="#CBD5E1" font-family="Consolas, monospace" font-size="12">Java • FastAPI • Node.js Backend</text>
+  <rect x="570" y="160" width="280" height="10" rx="5" fill="#1E293B" />
+  <rect class="bar2" x="570" y="160" width="246" height="10" rx="5" fill="url(#barPurple)" />
+
+  <text x="570" y="198" fill="#CBD5E1" font-family="Consolas, monospace" font-size="12">React • Vite • Modern Web UI</text>
+  <rect x="570" y="206" width="280" height="10" rx="5" fill="#1E293B" />
+  <rect class="bar3" x="570" y="206" width="238" height="10" rx="5" fill="url(#barCyan)" />
+
+  <text x="570" y="244" fill="#CBD5E1" font-family="Consolas, monospace" font-size="12">AWS • Docker • SQL &amp; NoSQL</text>
+  <rect x="570" y="252" width="280" height="10" rx="5" fill="#1E293B" />
+  <rect class="bar4" x="570" y="252" width="224" height="10" rx="5" fill="url(#barPurple)" />
+</svg>
