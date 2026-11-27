@@ -82,4 +82,4 @@
     <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/NithishDev2005/NithishDev2005/output/github-contribution-grid-snake-dark.svg" />
   </picture>
 </p>
-<!-- dev-mode -->
+<!-- dev-mode-v2 -->
